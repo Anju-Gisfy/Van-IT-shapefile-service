@@ -1,0 +1,37 @@
+Service is started at 5/11/2023 4:46:21 PM
+Shapefile found C:\ShapefilesService-Test\vw_block_achampet.shp at 5/11/2023 4:50:19 PM
+command running 5/11/2023 4:50:51 PM
+command run successfully at 5/11/2023 4:50:52 PM
+Updated queue table as deleted at 5/11/2023 4:51:34 PM
+original table updated at 5/11/2023 4:56:38 PM
+original table updated at 5/11/2023 5:00:09 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+original table updated at 5/11/2023 5:00:25 PM
+views deleted at 5/11/2023 5:02:51 PM
+views created at 5/11/2023 5:03:24 PM
+layer created at 5/11/2023 5:04:00 PM
+layer created at 5/11/2023 5:05:44 PM
+style implemented at 5/11/2023 5:06:41 PM
+temp table deleted at 5/11/2023 5:06:49 PM
+file successfully moved vw_block_achampet.cpg at 5/11/2023 5:06:54 PM
+file successfully moved vw_block_achampet.dbf at 5/11/2023 5:06:54 PM
+file successfully moved vw_block_achampet.prj at 5/11/2023 5:06:54 PM
+file successfully moved vw_block_achampet.qmd at 5/11/2023 5:06:54 PM
+file successfully moved vw_block_achampet.shp at 5/11/2023 5:06:54 PM
+file successfully moved vw_block_achampet.shx at 5/11/2023 5:06:54 PM
+Service is stop at 5/11/2023 5:43:09 PM

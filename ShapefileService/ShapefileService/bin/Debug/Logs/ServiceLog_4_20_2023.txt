@@ -1,0 +1,101 @@
+Service is started at 4/20/2023 12:40:38 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/20/2023 12:41:47 PM
+Service is stop at 4/20/2023 12:54:00 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/20/2023 12:54:00 PM
+file successfully moved vw_division_achampet1.cpg at 4/20/2023 12:55:30 PM
+file successfully moved vw_division_achampet1.dbf at 4/20/2023 12:55:30 PM
+file successfully moved vw_division_achampet1.prj at 4/20/2023 12:55:30 PM
+file successfully moved vw_division_achampet1.qmd at 4/20/2023 12:55:30 PM
+file successfully moved vw_division_achampet1.shp at 4/20/2023 12:55:30 PM
+file successfully moved vw_division_achampet1.shx at 4/20/2023 12:55:31 PM
+Service is started at 4/20/2023 1:03:52 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/20/2023 1:04:36 PM
+Service is stop at 4/20/2023 1:08:07 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/20/2023 1:08:07 PM
+command running 4/20/2023 1:08:14 PM
+command run successfully at 4/20/2023 1:08:14 PM
+Updated queue table as deleted at 4/20/2023 1:08:14 PM
+file successfully moved vw_division_achampet1.cpg at 4/20/2023 1:08:14 PM
+file successfully moved vw_division_achampet1.dbf at 4/20/2023 1:08:14 PM
+file successfully moved vw_division_achampet1.prj at 4/20/2023 1:08:14 PM
+file successfully moved vw_division_achampet1.qmd at 4/20/2023 1:08:14 PM
+file successfully moved vw_division_achampet1.shp at 4/20/2023 1:08:14 PM
+file successfully moved vw_division_achampet1.shx at 4/20/2023 1:08:14 PM
+command running 4/20/2023 1:08:14 PM
+command run successfully at 4/20/2023 1:08:14 PM
+Updated queue table as deleted at 4/20/2023 1:08:14 PM
+Service is started at 4/20/2023 1:11:58 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/20/2023 1:12:39 PM
+command running 4/20/2023 1:17:04 PM
+command run successfully at 4/20/2023 1:17:04 PM
+Updated queue table as deleted at 4/20/2023 1:17:04 PM
+file successfully moved vw_division_achampet1.cpg at 4/20/2023 1:17:04 PM
+file successfully moved vw_division_achampet1.dbf at 4/20/2023 1:17:04 PM
+file successfully moved vw_division_achampet1.prj at 4/20/2023 1:17:04 PM
+file successfully moved vw_division_achampet1.qmd at 4/20/2023 1:17:04 PM
+file successfully moved vw_division_achampet1.shp at 4/20/2023 1:17:04 PM
+file successfully moved vw_division_achampet1.shx at 4/20/2023 1:17:04 PM
+Service is stop at 4/20/2023 1:17:05 PM
+Service is started at 4/20/2023 2:19:19 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/20/2023 2:20:15 PM
+command running 4/20/2023 2:21:02 PM
+command run successfully at 4/20/2023 2:21:06 PM
+Updated queue table as deleted at 4/20/2023 2:21:24 PM
+file successfully moved vw_division_achampet1.cpg at 4/20/2023 4:13:53 PM
+file successfully moved vw_division_achampet1.dbf at 4/20/2023 4:13:53 PM
+file successfully moved vw_division_achampet1.prj at 4/20/2023 4:13:53 PM
+file successfully moved vw_division_achampet1.qmd at 4/20/2023 4:13:53 PM
+file successfully moved vw_division_achampet1.shp at 4/20/2023 4:13:53 PM
+file successfully moved vw_division_achampet1.shx at 4/20/2023 4:13:53 PM
+Service is stop at 4/20/2023 4:13:57 PM
+Service is started at 4/20/2023 4:20:31 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/20/2023 4:21:07 PM
+command running 4/20/2023 4:21:40 PM
+command run successfully at 4/20/2023 4:21:40 PM
+Updated queue table as deleted at 4/20/2023 4:21:40 PM
+selected and inserted data at 4/20/2023 4:21:40 PM
+file successfully moved vw_division_achampet1.cpg at 4/20/2023 4:21:40 PM
+file successfully moved vw_division_achampet1.dbf at 4/20/2023 4:21:40 PM
+file successfully moved vw_division_achampet1.prj at 4/20/2023 4:21:40 PM
+file successfully moved vw_division_achampet1.qmd at 4/20/2023 4:21:40 PM
+file successfully moved vw_division_achampet1.shp at 4/20/2023 4:21:40 PM
+file successfully moved vw_division_achampet1.shx at 4/20/2023 4:21:40 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/20/2023 4:23:43 PM
+command running 4/20/2023 4:23:59 PM
+command run successfully at 4/20/2023 4:24:00 PM
+Updated queue table as deleted at 4/20/2023 4:24:10 PM
+selected and inserted data at 4/20/2023 4:24:26 PM
+file successfully moved vw_division_achampet1.cpg at 4/20/2023 4:24:41 PM
+file successfully moved vw_division_achampet1.dbf at 4/20/2023 4:24:41 PM
+file successfully moved vw_division_achampet1.prj at 4/20/2023 4:24:41 PM
+file successfully moved vw_division_achampet1.qmd at 4/20/2023 4:24:41 PM
+file successfully moved vw_division_achampet1.shp at 4/20/2023 4:24:41 PM
+file successfully moved vw_division_achampet1.shx at 4/20/2023 4:24:41 PM
+Service is stop at 4/20/2023 4:24:45 PM
+Service is started at 4/20/2023 4:26:39 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/20/2023 4:27:23 PM
+command running 4/20/2023 4:27:44 PM
+command run successfully at 4/20/2023 4:27:45 PM
+Updated queue table as deleted at 4/20/2023 4:27:49 PM
+selected and inserted data at 4/20/2023 4:27:55 PM
+file successfully moved vw_division_achampet1.cpg at 4/20/2023 4:29:35 PM
+file successfully moved vw_division_achampet1.dbf at 4/20/2023 4:29:35 PM
+file successfully moved vw_division_achampet1.prj at 4/20/2023 4:29:35 PM
+file successfully moved vw_division_achampet1.qmd at 4/20/2023 4:29:35 PM
+file successfully moved vw_division_achampet1.shp at 4/20/2023 4:29:35 PM
+file successfully moved vw_division_achampet1.shx at 4/20/2023 4:29:35 PM
+Service is stop at 4/20/2023 4:30:11 PM
+Service is started at 4/20/2023 4:33:49 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/20/2023 4:33:49 PM
+command running 4/20/2023 4:33:50 PM
+command run successfully at 4/20/2023 4:33:50 PM
+Updated queue table as deleted at 4/20/2023 4:33:50 PM
+selected and inserted data at 4/20/2023 4:33:50 PM
+temp table deleted at 4/20/2023 4:33:50 PM
+file successfully moved vw_division_achampet1.cpg at 4/20/2023 4:33:50 PM
+file successfully moved vw_division_achampet1.dbf at 4/20/2023 4:33:50 PM
+file successfully moved vw_division_achampet1.prj at 4/20/2023 4:33:50 PM
+file successfully moved vw_division_achampet1.qmd at 4/20/2023 4:33:50 PM
+file successfully moved vw_division_achampet1.shp at 4/20/2023 4:33:50 PM
+file successfully moved vw_division_achampet1.shx at 4/20/2023 4:33:50 PM
+Service is stop at 4/20/2023 6:03:14 PM

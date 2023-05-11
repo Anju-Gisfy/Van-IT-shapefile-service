@@ -1,0 +1,283 @@
+Service is started at 4/26/2023 11:19:00 AM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/26/2023 11:19:53 AM
+command running 4/26/2023 11:20:03 AM
+command run successfully at 4/26/2023 11:20:04 AM
+Updated queue table as deleted at 4/26/2023 11:20:09 AM
+original table deleted at 4/26/2023 11:20:19 AM
+views deleted at 4/26/2023 11:20:22 AM
+selected and inserted data at 4/26/2023 11:20:29 AM
+views created at 4/26/2023 11:20:35 AM
+Error layer creation at 4/26/2023 11:25:07 AM
+temp table deleted at 4/26/2023 11:25:07 AM
+file successfully moved vw_division_achampet1.cpg at 4/26/2023 11:25:07 AM
+file successfully moved vw_division_achampet1.dbf at 4/26/2023 11:25:07 AM
+file successfully moved vw_division_achampet1.prj at 4/26/2023 11:25:07 AM
+file successfully moved vw_division_achampet1.qmd at 4/26/2023 11:25:07 AM
+file successfully moved vw_division_achampet1.shp at 4/26/2023 11:25:07 AM
+file successfully moved vw_division_achampet1.shx at 4/26/2023 11:25:07 AM
+Service is stop at 4/26/2023 11:25:14 AM
+Service is started at 4/26/2023 11:31:03 AM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/26/2023 11:32:14 AM
+command running 4/26/2023 11:32:15 AM
+command run successfully at 4/26/2023 11:32:15 AM
+Updated queue table as deleted at 4/26/2023 11:32:15 AM
+original table deleted at 4/26/2023 11:32:25 AM
+views deleted at 4/26/2023 11:32:25 AM
+selected and inserted data at 4/26/2023 11:32:36 AM
+views created at 4/26/2023 11:32:43 AM
+Error layer creation at 4/26/2023 11:36:24 AM
+temp table deleted at 4/26/2023 11:36:24 AM
+file successfully moved vw_division_achampet1.cpg at 4/26/2023 11:36:24 AM
+file successfully moved vw_division_achampet1.dbf at 4/26/2023 11:36:24 AM
+file successfully moved vw_division_achampet1.prj at 4/26/2023 11:36:24 AM
+file successfully moved vw_division_achampet1.qmd at 4/26/2023 11:36:24 AM
+file successfully moved vw_division_achampet1.shp at 4/26/2023 11:36:24 AM
+file successfully moved vw_division_achampet1.shx at 4/26/2023 11:36:24 AM
+Service is stop at 4/26/2023 11:36:28 AM
+Service is started at 4/26/2023 11:38:01 AM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/26/2023 11:38:34 AM
+command running 4/26/2023 11:38:35 AM
+command run successfully at 4/26/2023 11:38:35 AM
+Updated queue table as deleted at 4/26/2023 11:38:35 AM
+original table deleted at 4/26/2023 11:38:40 AM
+views deleted at 4/26/2023 11:38:40 AM
+selected and inserted data at 4/26/2023 11:38:40 AM
+views created at 4/26/2023 11:38:48 AM
+Error layer creation at 4/26/2023 11:40:01 AM
+temp table deleted at 4/26/2023 11:40:01 AM
+file successfully moved vw_division_achampet1.cpg at 4/26/2023 11:40:01 AM
+file successfully moved vw_division_achampet1.dbf at 4/26/2023 11:40:01 AM
+file successfully moved vw_division_achampet1.prj at 4/26/2023 11:40:01 AM
+file successfully moved vw_division_achampet1.qmd at 4/26/2023 11:40:01 AM
+file successfully moved vw_division_achampet1.shp at 4/26/2023 11:40:01 AM
+file successfully moved vw_division_achampet1.shx at 4/26/2023 11:40:01 AM
+Service is stop at 4/26/2023 11:40:06 AM
+Service is started at 4/26/2023 11:40:57 AM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/26/2023 11:46:14 AM
+command running 4/26/2023 11:46:17 AM
+command run successfully at 4/26/2023 11:46:17 AM
+Updated queue table as deleted at 4/26/2023 11:46:17 AM
+original table deleted at 4/26/2023 11:46:19 AM
+views deleted at 4/26/2023 11:46:19 AM
+selected and inserted data at 4/26/2023 11:46:19 AM
+views created at 4/26/2023 11:46:26 AM
+Error layer creation at 4/26/2023 11:49:09 AM
+temp table deleted at 4/26/2023 11:49:09 AM
+file successfully moved vw_division_achampet1.cpg at 4/26/2023 11:49:09 AM
+file successfully moved vw_division_achampet1.dbf at 4/26/2023 11:49:09 AM
+file successfully moved vw_division_achampet1.prj at 4/26/2023 11:49:09 AM
+file successfully moved vw_division_achampet1.qmd at 4/26/2023 11:49:09 AM
+file successfully moved vw_division_achampet1.shp at 4/26/2023 11:49:09 AM
+file successfully moved vw_division_achampet1.shx at 4/26/2023 11:49:09 AM
+Service is stop at 4/26/2023 11:49:13 AM
+Service is started at 4/26/2023 11:51:10 AM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/26/2023 11:51:51 AM
+command running 4/26/2023 11:51:52 AM
+command run successfully at 4/26/2023 11:51:52 AM
+Updated queue table as deleted at 4/26/2023 11:51:52 AM
+original table deleted at 4/26/2023 11:51:55 AM
+views deleted at 4/26/2023 11:51:55 AM
+selected and inserted data at 4/26/2023 11:51:55 AM
+views created at 4/26/2023 11:51:57 AM
+Error layer creation at 4/26/2023 11:52:35 AM
+temp table deleted at 4/26/2023 11:52:35 AM
+file successfully moved vw_division_achampet1.cpg at 4/26/2023 11:52:35 AM
+file successfully moved vw_division_achampet1.dbf at 4/26/2023 11:52:35 AM
+file successfully moved vw_division_achampet1.prj at 4/26/2023 11:52:35 AM
+file successfully moved vw_division_achampet1.qmd at 4/26/2023 11:52:35 AM
+file successfully moved vw_division_achampet1.shp at 4/26/2023 11:52:35 AM
+file successfully moved vw_division_achampet1.shx at 4/26/2023 11:52:35 AM
+Service is stop at 4/26/2023 11:52:39 AM
+Service is started at 4/26/2023 11:52:40 AM
+Service is stop at 4/26/2023 11:52:43 AM
+Service is started at 4/26/2023 12:00:48 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/26/2023 12:01:26 PM
+command running 4/26/2023 12:01:27 PM
+command run successfully at 4/26/2023 12:01:27 PM
+Updated queue table as deleted at 4/26/2023 12:01:27 PM
+original table deleted at 4/26/2023 12:01:29 PM
+views deleted at 4/26/2023 12:01:29 PM
+selected and inserted data at 4/26/2023 12:01:29 PM
+views created at 4/26/2023 12:01:31 PM
+layer created at 4/26/2023 12:01:59 PM
+temp table deleted at 4/26/2023 12:07:18 PM
+file successfully moved vw_division_achampet1.cpg at 4/26/2023 12:07:18 PM
+file successfully moved vw_division_achampet1.dbf at 4/26/2023 12:07:18 PM
+file successfully moved vw_division_achampet1.prj at 4/26/2023 12:07:18 PM
+file successfully moved vw_division_achampet1.qmd at 4/26/2023 12:07:18 PM
+file successfully moved vw_division_achampet1.shp at 4/26/2023 12:07:18 PM
+file successfully moved vw_division_achampet1.shx at 4/26/2023 12:07:18 PM
+Service is stop at 4/26/2023 12:07:24 PM
+Service is started at 4/26/2023 12:11:00 PM
+Service is stop at 4/26/2023 12:11:06 PM
+Service is started at 4/26/2023 12:11:15 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/26/2023 12:12:19 PM
+command running 4/26/2023 12:12:20 PM
+command run successfully at 4/26/2023 12:12:20 PM
+Updated queue table as deleted at 4/26/2023 12:12:20 PM
+original table deleted at 4/26/2023 12:12:21 PM
+views deleted at 4/26/2023 12:12:21 PM
+selected and inserted data at 4/26/2023 12:12:21 PM
+views created at 4/26/2023 12:12:23 PM
+layer created at 4/26/2023 12:13:07 PM
+temp table deleted at 4/26/2023 12:14:45 PM
+file successfully moved vw_division_achampet1.cpg at 4/26/2023 12:14:45 PM
+file successfully moved vw_division_achampet1.dbf at 4/26/2023 12:14:45 PM
+file successfully moved vw_division_achampet1.prj at 4/26/2023 12:14:45 PM
+file successfully moved vw_division_achampet1.qmd at 4/26/2023 12:14:45 PM
+file successfully moved vw_division_achampet1.shp at 4/26/2023 12:14:45 PM
+file successfully moved vw_division_achampet1.shx at 4/26/2023 12:14:45 PM
+Service is stop at 4/26/2023 12:14:50 PM
+Service is started at 4/26/2023 12:20:24 PM
+Shapefile found C:\Shapefiles-Test\vw_division_achampet1.shp at 4/26/2023 12:21:03 PM
+command running 4/26/2023 12:21:04 PM
+command run successfully at 4/26/2023 12:21:04 PM
+Updated queue table as deleted at 4/26/2023 12:21:04 PM
+original table deleted at 4/26/2023 12:21:06 PM
+views deleted at 4/26/2023 12:21:06 PM
+selected and inserted data at 4/26/2023 12:21:06 PM
+views created at 4/26/2023 12:21:08 PM
+layer created at 4/26/2023 12:21:18 PM
+temp table deleted at 4/26/2023 12:36:19 PM
+Service is stop at 4/26/2023 12:36:32 PM
+Service is started at 4/26/2023 12:37:19 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/26/2023 12:38:10 PM
+file successfully moved vw_division_tvm.cpg at 4/26/2023 12:38:10 PM
+file successfully moved vw_division_tvm.dbf at 4/26/2023 12:38:10 PM
+file successfully moved vw_division_tvm.prj at 4/26/2023 12:38:10 PM
+file successfully moved vw_division_tvm.qmd at 4/26/2023 12:38:10 PM
+file successfully moved vw_division_tvm.shp at 4/26/2023 12:38:10 PM
+file successfully moved vw_division_tvm.shx at 4/26/2023 12:38:10 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/26/2023 12:38:45 PM
+file successfully moved vw_division_tvm.cpg at 4/26/2023 12:40:14 PM
+file successfully moved vw_division_tvm.dbf at 4/26/2023 12:40:14 PM
+file successfully moved vw_division_tvm.prj at 4/26/2023 12:40:14 PM
+file successfully moved vw_division_tvm.qmd at 4/26/2023 12:40:14 PM
+file successfully moved vw_division_tvm.shp at 4/26/2023 12:40:14 PM
+file successfully moved vw_division_tvm.shx at 4/26/2023 12:40:14 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/26/2023 12:40:33 PM
+command running 4/26/2023 12:40:41 PM
+command run successfully at 4/26/2023 12:40:41 PM
+Updated queue table as deleted at 4/26/2023 12:40:41 PM
+original table deleted at 4/26/2023 12:40:43 PM
+views deleted at 4/26/2023 12:40:43 PM
+selected and inserted data at 4/26/2023 12:40:43 PM
+views created at 4/26/2023 12:40:45 PM
+layer created at 4/26/2023 12:40:54 PM
+temp table deleted at 4/26/2023 12:41:00 PM
+layer created at 4/26/2023 2:29:36 PM
+file successfully moved vw_division_tvm.cpg at 4/26/2023 2:29:36 PM
+file successfully moved vw_division_tvm.dbf at 4/26/2023 2:29:36 PM
+file successfully moved vw_division_tvm.prj at 4/26/2023 2:29:36 PM
+file successfully moved vw_division_tvm.qmd at 4/26/2023 2:29:36 PM
+file successfully moved vw_division_tvm.shp at 4/26/2023 2:29:36 PM
+file successfully moved vw_division_tvm.shx at 4/26/2023 2:29:36 PM
+Service is stop at 4/26/2023 2:29:51 PM
+Service is started at 4/26/2023 4:31:35 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/26/2023 4:32:23 PM
+command running 4/26/2023 4:32:28 PM
+command run successfully at 4/26/2023 4:32:28 PM
+Updated queue table as deleted at 4/26/2023 4:32:28 PM
+original table deleted at 4/26/2023 4:32:30 PM
+views deleted at 4/26/2023 4:32:30 PM
+selected and inserted data at 4/26/2023 4:32:30 PM
+views created at 4/26/2023 4:32:31 PM
+layer created at 4/26/2023 4:42:38 PM
+temp table deleted at 4/26/2023 4:42:38 PM
+file successfully moved vw_division_tvm.cpg at 4/26/2023 4:42:38 PM
+file successfully moved vw_division_tvm.dbf at 4/26/2023 4:42:38 PM
+file successfully moved vw_division_tvm.prj at 4/26/2023 4:42:38 PM
+file successfully moved vw_division_tvm.qmd at 4/26/2023 4:42:38 PM
+file successfully moved vw_division_tvm.shp at 4/26/2023 4:42:38 PM
+file successfully moved vw_division_tvm.shx at 4/26/2023 4:42:38 PM
+Service is stop at 4/26/2023 4:43:18 PM
+Service is started at 4/26/2023 4:58:06 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/26/2023 4:58:40 PM
+command running 4/26/2023 4:58:40 PM
+command run successfully at 4/26/2023 4:58:40 PM
+Updated queue table as deleted at 4/26/2023 4:58:40 PM
+original table deleted at 4/26/2023 4:58:45 PM
+views deleted at 4/26/2023 4:58:45 PM
+selected and inserted data at 4/26/2023 4:58:45 PM
+views created at 4/26/2023 4:58:46 PM
+Error layer creation at 4/26/2023 5:00:15 PM
+temp table deleted at 4/26/2023 5:00:15 PM
+file successfully moved vw_division_tvm.cpg at 4/26/2023 5:00:15 PM
+file successfully moved vw_division_tvm.dbf at 4/26/2023 5:00:15 PM
+file successfully moved vw_division_tvm.prj at 4/26/2023 5:00:15 PM
+file successfully moved vw_division_tvm.qmd at 4/26/2023 5:00:15 PM
+file successfully moved vw_division_tvm.shp at 4/26/2023 5:00:15 PM
+file successfully moved vw_division_tvm.shx at 4/26/2023 5:00:15 PM
+Service is stop at 4/26/2023 5:24:53 PM
+Service is started at 4/26/2023 5:25:44 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/26/2023 5:26:16 PM
+command running 4/26/2023 5:26:17 PM
+command run successfully at 4/26/2023 5:26:17 PM
+Updated queue table as deleted at 4/26/2023 5:26:17 PM
+original table deleted at 4/26/2023 5:26:19 PM
+views deleted at 4/26/2023 5:26:19 PM
+selected and inserted data at 4/26/2023 5:26:19 PM
+views created at 4/26/2023 5:26:21 PM
+Error layer creation at 4/26/2023 5:28:07 PM
+temp table deleted at 4/26/2023 5:28:07 PM
+file successfully moved vw_division_tvm.cpg at 4/26/2023 5:28:07 PM
+file successfully moved vw_division_tvm.dbf at 4/26/2023 5:28:07 PM
+file successfully moved vw_division_tvm.prj at 4/26/2023 5:28:07 PM
+file successfully moved vw_division_tvm.qmd at 4/26/2023 5:28:07 PM
+file successfully moved vw_division_tvm.shp at 4/26/2023 5:28:08 PM
+file successfully moved vw_division_tvm.shx at 4/26/2023 5:28:08 PM
+Service is stop at 4/26/2023 5:28:13 PM
+Service is started at 4/26/2023 5:47:20 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/26/2023 5:47:50 PM
+command running 4/26/2023 5:47:53 PM
+command run successfully at 4/26/2023 5:47:53 PM
+Updated queue table as deleted at 4/26/2023 5:47:53 PM
+original table deleted at 4/26/2023 5:47:55 PM
+views deleted at 4/26/2023 5:47:56 PM
+selected and inserted data at 4/26/2023 5:47:56 PM
+views created at 4/26/2023 5:47:57 PM
+Error layer creation at 4/26/2023 5:49:00 PM
+temp table deleted at 4/26/2023 5:49:00 PM
+file successfully moved vw_division_tvm.cpg at 4/26/2023 5:49:00 PM
+file successfully moved vw_division_tvm.dbf at 4/26/2023 5:49:00 PM
+file successfully moved vw_division_tvm.prj at 4/26/2023 5:49:00 PM
+file successfully moved vw_division_tvm.qmd at 4/26/2023 5:49:00 PM
+file successfully moved vw_division_tvm.shp at 4/26/2023 5:49:00 PM
+file successfully moved vw_division_tvm.shx at 4/26/2023 5:49:00 PM
+Service is stop at 4/26/2023 5:49:05 PM
+Service is started at 4/26/2023 5:50:02 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/26/2023 5:50:31 PM
+command running 4/26/2023 5:50:33 PM
+command run successfully at 4/26/2023 5:50:33 PM
+Updated queue table as deleted at 4/26/2023 5:50:33 PM
+original table deleted at 4/26/2023 5:50:44 PM
+views deleted at 4/26/2023 5:50:44 PM
+selected and inserted data at 4/26/2023 5:50:44 PM
+views created at 4/26/2023 5:50:46 PM
+Error layer creation at 4/26/2023 5:52:29 PM
+temp table deleted at 4/26/2023 5:52:29 PM
+file successfully moved vw_division_tvm.cpg at 4/26/2023 5:52:29 PM
+file successfully moved vw_division_tvm.dbf at 4/26/2023 5:52:29 PM
+file successfully moved vw_division_tvm.prj at 4/26/2023 5:52:29 PM
+file successfully moved vw_division_tvm.qmd at 4/26/2023 5:52:29 PM
+file successfully moved vw_division_tvm.shp at 4/26/2023 5:52:29 PM
+file successfully moved vw_division_tvm.shx at 4/26/2023 5:52:29 PM
+Service is stop at 4/26/2023 5:52:37 PM
+Service is started at 4/26/2023 5:53:23 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/26/2023 5:54:13 PM
+command running 4/26/2023 5:54:14 PM
+command run successfully at 4/26/2023 5:54:14 PM
+Updated queue table as deleted at 4/26/2023 5:54:14 PM
+original table deleted at 4/26/2023 5:54:19 PM
+views deleted at 4/26/2023 5:54:19 PM
+selected and inserted data at 4/26/2023 5:54:19 PM
+views created at 4/26/2023 5:54:25 PM
+Error layer creation at 4/26/2023 6:12:45 PM
+temp table deleted at 4/26/2023 6:12:45 PM
+file successfully moved vw_division_tvm.cpg at 4/26/2023 6:12:45 PM
+file successfully moved vw_division_tvm.dbf at 4/26/2023 6:12:45 PM
+file successfully moved vw_division_tvm.prj at 4/26/2023 6:12:45 PM
+file successfully moved vw_division_tvm.qmd at 4/26/2023 6:12:45 PM
+file successfully moved vw_division_tvm.shp at 4/26/2023 6:12:45 PM
+file successfully moved vw_division_tvm.shx at 4/26/2023 6:12:45 PM
+Service is stop at 4/26/2023 6:13:30 PM

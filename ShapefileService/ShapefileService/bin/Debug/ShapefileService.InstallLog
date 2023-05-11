@@ -1,0 +1,45 @@
+﻿Installing assembly 'G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe'.
+Affected parameters are:
+   i = 
+   logfile = G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\bin\Debug\ShapefileService.InstallLog
+   assemblypath = G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe
+   logtoconsole = 
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe'.
+Affected parameters are:
+   i = 
+   logfile = G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\bin\Debug\ShapefileService.InstallLog
+   assemblypath = G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe
+   logtoconsole = 
+Restoring event log to previous state for source Service1.
+Installing assembly 'G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe'.
+Affected parameters are:
+   i = 
+   logfile = G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\bin\Debug\ShapefileService.InstallLog
+   assemblypath = G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe
+   logtoconsole = 
+Installing service ShapefileService...
+Service ShapefileService has been successfully installed.
+Creating EventLog source ShapefileService in log Application...
+Committing assembly 'G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe'.
+Affected parameters are:
+   i = 
+   logfile = G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\bin\Debug\ShapefileService.InstallLog
+   assemblypath = G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe
+   logtoconsole = 
+Installing assembly 'C:\Van IT Windows Services\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Van IT Windows Services\ShapefileService\ShapefileService\bin\Debug\ShapefileService.InstallLog
+   assemblypath = C:\Van IT Windows Services\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe
+   logtoconsole = 
+Installing service ShapefileService...
+Service ShapefileService has been successfully installed.
+Creating EventLog source ShapefileService in log Application...
+Committing assembly 'C:\Van IT Windows Services\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe'.
+Affected parameters are:
+   i = 
+   logfile = C:\Van IT Windows Services\ShapefileService\ShapefileService\bin\Debug\ShapefileService.InstallLog
+   assemblypath = C:\Van IT Windows Services\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe
+   logtoconsole = 

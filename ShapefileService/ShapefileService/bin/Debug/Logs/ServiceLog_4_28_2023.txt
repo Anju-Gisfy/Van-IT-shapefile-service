@@ -1,0 +1,163 @@
+Service is started at 4/28/2023 12:33:20 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/28/2023 12:34:14 PM
+command running 4/28/2023 12:34:23 PM
+command run successfully at 4/28/2023 12:34:23 PM
+Updated queue table as deleted at 4/28/2023 12:34:27 PM
+original table deleted at 4/28/2023 12:34:30 PM
+views deleted at 4/28/2023 12:34:30 PM
+selected and inserted data at 4/28/2023 12:34:30 PM
+views created at 4/28/2023 12:34:36 PM
+file successfully moved vw_division_tvm.cpg at 4/28/2023 12:40:36 PM
+file successfully moved vw_division_tvm.dbf at 4/28/2023 12:40:36 PM
+file successfully moved vw_division_tvm.prj at 4/28/2023 12:40:36 PM
+file successfully moved vw_division_tvm.qmd at 4/28/2023 12:40:36 PM
+file successfully moved vw_division_tvm.shp at 4/28/2023 12:40:36 PM
+file successfully moved vw_division_tvm.shx at 4/28/2023 12:40:36 PM
+Service is stop at 4/28/2023 12:40:40 PM
+Service is started at 4/28/2023 12:45:00 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/28/2023 12:45:43 PM
+command running 4/28/2023 12:45:43 PM
+command run successfully at 4/28/2023 12:45:43 PM
+Updated queue table as deleted at 4/28/2023 12:45:43 PM
+original table deleted at 4/28/2023 12:45:45 PM
+views deleted at 4/28/2023 12:45:45 PM
+selected and inserted data at 4/28/2023 12:45:45 PM
+views created at 4/28/2023 12:45:46 PM
+temp table deleted at 4/28/2023 12:46:40 PM
+file successfully moved vw_division_tvm.cpg at 4/28/2023 12:46:40 PM
+file successfully moved vw_division_tvm.dbf at 4/28/2023 12:46:40 PM
+file successfully moved vw_division_tvm.prj at 4/28/2023 12:46:40 PM
+file successfully moved vw_division_tvm.qmd at 4/28/2023 12:46:40 PM
+file successfully moved vw_division_tvm.shp at 4/28/2023 12:46:40 PM
+file successfully moved vw_division_tvm.shx at 4/28/2023 12:46:40 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/28/2023 12:47:01 PM
+command running 4/28/2023 12:47:04 PM
+command run successfully at 4/28/2023 12:47:04 PM
+Updated queue table as deleted at 4/28/2023 12:47:04 PM
+original table deleted at 4/28/2023 12:47:05 PM
+views deleted at 4/28/2023 12:47:05 PM
+selected and inserted data at 4/28/2023 12:47:05 PM
+views created at 4/28/2023 12:47:08 PM
+temp table deleted at 4/28/2023 12:47:31 PM
+file successfully moved vw_division_tvm.cpg at 4/28/2023 12:47:31 PM
+file successfully moved vw_division_tvm.dbf at 4/28/2023 12:47:31 PM
+file successfully moved vw_division_tvm.prj at 4/28/2023 12:47:31 PM
+file successfully moved vw_division_tvm.qmd at 4/28/2023 12:47:31 PM
+file successfully moved vw_division_tvm.shp at 4/28/2023 12:47:31 PM
+file successfully moved vw_division_tvm.shx at 4/28/2023 12:47:31 PM
+Service is stop at 4/28/2023 12:47:38 PM
+Service is started at 4/28/2023 12:48:52 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/28/2023 12:49:30 PM
+command running 4/28/2023 12:49:31 PM
+command run successfully at 4/28/2023 12:49:31 PM
+Updated queue table as deleted at 4/28/2023 12:49:31 PM
+original table deleted at 4/28/2023 12:49:33 PM
+views deleted at 4/28/2023 12:49:33 PM
+selected and inserted data at 4/28/2023 12:49:33 PM
+views created at 4/28/2023 12:49:37 PM
+temp table deleted at 4/28/2023 12:50:04 PM
+file successfully moved vw_division_tvm.cpg at 4/28/2023 12:50:04 PM
+file successfully moved vw_division_tvm.dbf at 4/28/2023 12:50:04 PM
+file successfully moved vw_division_tvm.prj at 4/28/2023 12:50:04 PM
+file successfully moved vw_division_tvm.qmd at 4/28/2023 12:50:04 PM
+file successfully moved vw_division_tvm.shp at 4/28/2023 12:50:04 PM
+file successfully moved vw_division_tvm.shx at 4/28/2023 12:50:04 PM
+Service is stop at 4/28/2023 12:51:21 PM
+Service is started at 4/28/2023 12:53:50 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/28/2023 12:53:50 PM
+command running 4/28/2023 12:53:50 PM
+command run successfully at 4/28/2023 12:53:50 PM
+Updated queue table as deleted at 4/28/2023 12:53:50 PM
+original table deleted at 4/28/2023 12:53:50 PM
+views deleted at 4/28/2023 12:53:50 PM
+selected and inserted data at 4/28/2023 12:53:50 PM
+views created at 4/28/2023 12:53:50 PM
+layer created at 4/28/2023 12:53:51 PM
+temp table deleted at 4/28/2023 12:53:51 PM
+file successfully moved vw_division_tvm.cpg at 4/28/2023 12:53:51 PM
+file successfully moved vw_division_tvm.dbf at 4/28/2023 12:53:51 PM
+file successfully moved vw_division_tvm.prj at 4/28/2023 12:53:51 PM
+file successfully moved vw_division_tvm.qmd at 4/28/2023 12:53:51 PM
+file successfully moved vw_division_tvm.shp at 4/28/2023 12:53:51 PM
+file successfully moved vw_division_tvm.shx at 4/28/2023 12:53:51 PM
+Service is stop at 4/28/2023 1:27:27 PM
+Service is started at 4/28/2023 4:32:39 PM
+file successfully moved division-style.sld at 4/28/2023 4:32:39 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/28/2023 4:33:41 PM
+command running 4/28/2023 4:33:44 PM
+command run successfully at 4/28/2023 4:33:44 PM
+Updated queue table as deleted at 4/28/2023 4:33:44 PM
+layer created at 4/28/2023 4:35:35 PM
+style implemented at 4/28/2023 4:35:35 PM
+file successfully moved vw_division_tvm.dbf at 4/28/2023 4:35:35 PM
+file successfully moved vw_division_tvm.prj at 4/28/2023 4:35:35 PM
+file successfully moved vw_division_tvm.qmd at 4/28/2023 4:35:35 PM
+file successfully moved vw_division_tvm.shp at 4/28/2023 4:35:35 PM
+file successfully moved vw_division_tvm.shx at 4/28/2023 4:35:35 PM
+Service is stop at 4/28/2023 4:35:46 PM
+Service is started at 4/28/2023 4:40:48 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/28/2023 4:42:56 PM
+command running 4/28/2023 4:43:07 PM
+command run successfully at 4/28/2023 4:43:08 PM
+Updated queue table as deleted at 4/28/2023 4:43:16 PM
+command running 4/28/2023 4:49:15 PM
+command run successfully at 4/28/2023 4:49:16 PM
+Updated queue table as deleted at 4/28/2023 4:49:20 PM
+layer created at 4/28/2023 4:49:53 PM
+style implemented at 4/28/2023 4:50:05 PM
+file successfully moved vw_division_tvm.dbf at 4/28/2023 4:56:04 PM
+file successfully moved vw_division_tvm.prj at 4/28/2023 4:56:04 PM
+file successfully moved vw_division_tvm.qmd at 4/28/2023 4:56:04 PM
+file successfully moved vw_division_tvm.shp at 4/28/2023 4:56:04 PM
+file successfully moved vw_division_tvm.shx at 4/28/2023 4:56:04 PM
+Service is stop at 4/28/2023 4:56:09 PM
+Service is started at 4/28/2023 5:02:58 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/28/2023 5:03:31 PM
+command running 4/28/2023 5:03:35 PM
+command run successfully at 4/28/2023 5:03:35 PM
+Updated queue table as deleted at 4/28/2023 5:03:38 PM
+layer created at 4/28/2023 5:03:51 PM
+style implemented at 4/28/2023 5:04:46 PM
+file successfully moved vw_division_tvm.dbf at 4/28/2023 5:04:46 PM
+file successfully moved vw_division_tvm.prj at 4/28/2023 5:04:46 PM
+file successfully moved vw_division_tvm.qmd at 4/28/2023 5:04:46 PM
+file successfully moved vw_division_tvm.shp at 4/28/2023 5:04:46 PM
+file successfully moved vw_division_tvm.shx at 4/28/2023 5:04:46 PM
+Service is stop at 4/28/2023 5:04:51 PM
+Service is started at 4/28/2023 5:05:51 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/28/2023 5:06:31 PM
+command running 4/28/2023 5:06:35 PM
+command run successfully at 4/28/2023 5:06:36 PM
+Updated queue table as deleted at 4/28/2023 5:06:38 PM
+layer created at 4/28/2023 5:07:00 PM
+style implemented at 4/28/2023 5:10:05 PM
+file successfully moved vw_division_tvm.dbf at 4/28/2023 5:10:05 PM
+file successfully moved vw_division_tvm.prj at 4/28/2023 5:10:05 PM
+file successfully moved vw_division_tvm.qmd at 4/28/2023 5:10:05 PM
+file successfully moved vw_division_tvm.shp at 4/28/2023 5:10:05 PM
+file successfully moved vw_division_tvm.shx at 4/28/2023 5:10:05 PM
+Service is stop at 4/28/2023 5:10:09 PM
+Service is started at 4/28/2023 5:10:56 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/28/2023 5:11:26 PM
+command running 4/28/2023 5:11:30 PM
+command run successfully at 4/28/2023 5:11:30 PM
+Updated queue table as deleted at 4/28/2023 5:11:33 PM
+layer created at 4/28/2023 5:11:48 PM
+style implemented at 4/28/2023 5:12:06 PM
+file successfully moved vw_division_tvm.dbf at 4/28/2023 5:18:37 PM
+file successfully moved vw_division_tvm.prj at 4/28/2023 5:18:37 PM
+file successfully moved vw_division_tvm.qmd at 4/28/2023 5:18:37 PM
+file successfully moved vw_division_tvm.shp at 4/28/2023 5:18:37 PM
+file successfully moved vw_division_tvm.shx at 4/28/2023 5:18:37 PM
+file successfully moved vw_division_tvm.dbf at 4/28/2023 5:50:55 PM
+file successfully moved vw_division_tvm.prj at 4/28/2023 5:50:55 PM
+file successfully moved vw_division_tvm.qmd at 4/28/2023 5:50:55 PM
+Shapefile found C:\Shapefiles-Test\vw_division_tvm.shp at 4/28/2023 5:50:55 PM
+command running 4/28/2023 5:50:55 PM
+command run successfully at 4/28/2023 5:50:55 PM
+Updated queue table as deleted at 4/28/2023 5:50:55 PM
+layer created at 4/28/2023 5:50:55 PM
+style implemented at 4/28/2023 5:50:56 PM
+file successfully moved vw_division_tvm.shp at 4/28/2023 5:50:56 PM
+file successfully moved vw_division_tvm.shx at 4/28/2023 5:50:56 PM
+Service is stop at 4/28/2023 5:51:01 PM
