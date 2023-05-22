@@ -1,0 +1,374 @@
+CREATE TABLE [dbo].[tblshapefile_queue](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[filename] [varchar](max) NULL,
+	[boundary] [nvarchar](max) NULL,
+	[is_delete] [nvarchar](max) NULL,
+ CONSTRAINT [PK_tblshapefile_queue] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+// stored procedure sp_shapefile_import
+
+USE [VanIT]
+GO
+/****** Object:  StoredProcedure [dbo].[sp_shapefile_import]    Script Date: 22-05-2023 15:45:54 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER procedure [dbo].[sp_shapefile_import]
+
+@StatementType nvarchar(max)=null,
+@operation varchar(max)=null,
+@tablename varchar(max)=null,
+@divisionname varchar(max)=null
+as begin 
+	IF @StatementType = 'Division'
+	BEGIN
+		IF @operation = 'delete'
+			BEGIN
+			DELETE FROM [dbo].[tblDivision] WHERE [DivisionName]=@divisionname;
+				
+		end
+		IF @operation = 'update'
+			BEGIN
+			Declare @Qtabledu nvarchar(max);
+			set @Qtabledu =N'
+			UPDATE [dbo].[tblRange]
+			SET [geom] = subquery.[ogr_geometry], [DivisionId]= subquery.[divisionid],[DivisionName]= subquery.[divisionna], [create_by]= subquery.[create_by], [CircleId]= subquery.[circleid], [timestamp]= subquery.[timestamp], [region_id]= subquery.[region_id]
+			FROM (
+				select ogr_geometry, [divisionid], divisionna, [create_by], [circleid],[timestamp],[region_id] from [dbo].newlayer
+			) subquery
+			WHERE subquery.[qgs_fid] = [tblDivision].[qgs_fid]';
+				  print @Qtabledu;
+				exec sp_executesql @Qtabledu;
+			
+				
+		end
+		IF @operation = 'insert'
+		BEGIN
+			Declare @Qtable nvarchar(max);
+			set @Qtable =N'
+			insert into [dbo].[tblDivision]( [geom] , [DivisionId],[DivisionName], [create_by], [CircleId], [timestamp], [region_id])
+	  select ogr_geometry as [geom], [divisionid] as [DivisionId], divisionna as [DivisionName], [create_by], [circleid] as [CircleId],[timestamp],[region_id] from dbo.['+@tablename+']';
+				  print @Qtable;
+				exec sp_executesql @Qtable;
+		end
+		IF @operation = 'select'
+		BEGIN
+			Declare @Qtables nvarchar(max);
+			set @Qtables =N'
+			
+	  select divisionna as [DivisionName] from dbo.['+@tablename+']';
+				  print @Qtables;
+				exec sp_executesql @Qtables;
+		end
+
+		IF @operation = 'selectdata'
+		BEGIN
+			
+			select [DivisionName] from dbo.[tblDivision] where [DivisionName]=@divisionname;
+				  
+		end
+	end
+	IF @StatementType = 'Range'
+	BEGIN
+		IF @operation = 'delete'
+			BEGIN
+			DELETE FROM [dbo].[tblRange] WHERE [RangeName]=@divisionname;
+				
+		end
+		IF @operation = 'update'
+			BEGIN
+			Declare @Qtableru nvarchar(max);
+			set @Qtableru =N'
+			UPDATE [dbo].[tblRange]
+			SET [qgs_fid]= subquery.[qgs_fid],[geom]= subquery.[ogr_geometry],[Compartment]= subquery.[compartmen],[RangeName]= subquery.[rangename],[create_by]= subquery.[create_by],[RangeId]= subquery.[rangeid],[timestamp]= subquery.[timestamp],[DivisionID]= subquery.[divisionid]
+			FROM (
+				select [ogr_fid],[ogr_geometry],[qgs_fid],[compartmen],[rangename],[create_by],[rangeid],[timestamp],[divisionid] from [dbo].newlayer
+			) subquery
+			WHERE subquery.[qgs_fid] = [tblRange].[qgs_fid]';
+				  print @Qtableru;
+				exec sp_executesql @Qtableru;
+			
+				
+		end
+		IF @operation = 'insert'
+		BEGIN
+			Declare @Qtabler nvarchar(max);
+			set @Qtabler =N'
+			insert into [dbo].[tblRange]( [qgs_fid],[geom],[Compartment],[RangeName],[create_by],[RangeId],[timestamp],[DivisionID])
+			select [qgs_fid],[geom] ,[Compartment],[RangeName],[create_by],[RangeId],[timestamp],[DivisionID] from dbo.['+@tablename+']';
+				  print @Qtabler;
+				exec sp_executesql @Qtabler;
+		end
+		IF @operation = 'select'
+		BEGIN
+			Declare @Qtablesrs nvarchar(max);
+			set @Qtablesrs =N'
+			
+	  select [RangeName] as [DivisionName], [DivisionName] as namedivision from dbo.['+@tablename+'] a left outer join [dbo].[tblDivision] b on a.[DivisionID]=b.[DivisionId]';
+				  print @Qtablesrs;
+				exec sp_executesql @Qtablesrs;
+		end
+
+		IF @operation = 'selectdata'
+		BEGIN
+			
+			select [RangeName] as [DivisionName] from dbo.[tblRange] where [RangeName]=@divisionname;
+				  
+		end
+	end
+	IF @StatementType = 'Block'
+	BEGIN
+		IF @operation = 'delete'
+			BEGIN
+			DELETE FROM [dbo].[tblBlock] WHERE [BlockName]=@divisionname;
+				
+		end
+		IF @operation = 'update'
+			BEGIN
+			Declare @Qtablebu nvarchar(max);
+			set @Qtablebu =N'
+			UPDATE [dbo].[tblBlock]
+			SET [qgs_fid]= subquery.[qgs_fid],[geom]= subquery.[ogr_geometry],[create_by]= subquery.[create_by],[RangeId]= subquery.[rangeid],[BlockName]= subquery.[blockname],[BlockId]= subquery.[blockid],[timestamp]= subquery.[timestamp],[DivisionID]= subquery.[divisionid]
+			FROM (
+				select [ogr_fid],[ogr_geometry],[qgs_fid],[create_by],[rangeid],[blockname],[blockid],[timestamp],[divisionid] from [dbo].newlayer
+			) subquery
+			WHERE subquery.[qgs_fid] = [tblBlock].[qgs_fid]';
+				  print @Qtablebu;
+				exec sp_executesql @Qtablebu;
+			
+				
+		end
+		IF @operation = 'insert'
+		BEGIN
+			Declare @Qtablebi nvarchar(max);
+			set @Qtablebi =N'
+			insert into [dbo].[tblBlock]( [qgs_fid],[geom],[create_by],[RangeId],[BlockName],[BlockId],[timestamp],[DivisionID])
+			select [qgs_fid],[ogr_geometry] as [geom],[create_by],[rangeid] as [RangeId],[blockname] as [BlockName],[blockid] as [BlockId],[timestamp],[divisionid] as [DivisionID] from dbo.['+@tablename+']';
+				  print @Qtablebi;
+				exec sp_executesql @Qtablebi;
+		end
+		IF @operation = 'select'
+		BEGIN
+			Declare @Qtablesbs nvarchar(max);
+			set @Qtablesbs =N'
+			
+	  select [BlockName] as [DivisionName], [DivisionName] as namedivision from dbo.['+@tablename+'] a left outer join [dbo].[tblDivision] b on a.[divisionid]=b.[DivisionId]';
+				  print @Qtablesbs;
+				exec sp_executesql @Qtablesbs;
+		end
+
+		IF @operation = 'selectdata'
+		BEGIN
+			
+			select [BlockName] as [DivisionName] from dbo.[tblBlock] where [BlockName]=@divisionname;
+				  
+		end
+	end
+	IF @StatementType = 'Compartment'
+	BEGIN
+		IF @operation = 'delete'
+			BEGIN
+			DELETE FROM [dbo].[tblCompartment] WHERE [name]=@divisionname;
+				
+		end
+		IF @operation = 'update'
+			BEGIN
+			Declare @Qtablecu nvarchar(max);
+			set @Qtablecu =N'
+			UPDATE [dbo].[tblCompartment]
+			SET [qgs_fid]= subquery.[qgs_fid],[geom]= subquery.[ogr_geometry],[name]= subquery.[name],[create_by]= subquery.[create_by],[CompartmentId]= subquery.[compartmen],[BeatId]= subquery.[beatid],[timestamp]= subquery.[timestamp],[DivisionID]= subquery.[divisionid]
+			FROM (
+				select [ogr_fid],[ogr_geometry],[qgs_fid],[name],[create_by],[compartmen],[beatid],[timestamp],[divisionid] from [dbo].newlayer
+			) subquery
+			WHERE subquery.[qgs_fid] = [tblCompartment].[qgs_fid]';
+				  print @Qtablecu;
+				exec sp_executesql @Qtablecu;
+			
+				
+		end
+		IF @operation = 'insert'
+		BEGIN
+			Declare @Qtableci nvarchar(max);
+			set @Qtableci =N'
+			insert into [dbo].[tblCompartment]( [qgs_fid],[geom],[name],[create_by],[CompartmentId],[BeatId],[timestamp],[DivisionID])
+			select [qgs_fid],[ogr_geometry] as [geom],[name],[create_by],[compartmen] as [CompartmentId],[beatid] as [BeatId],[timestamp],[divisionid] as [DivisionID] from dbo.['+@tablename+']';
+				  print @Qtableci;
+				exec sp_executesql @Qtableci;
+		end
+		IF @operation = 'select'
+		BEGIN
+			Declare @Qtablescs nvarchar(max);
+			set @Qtablescs =N'
+			
+	  select [name] as [DivisionName], [DivisionName] as namedivision from dbo.['+@tablename+'] a left outer join [dbo].[tblDivision] b on a.[divisionid]=b.[DivisionId]';
+				  print @Qtablescs;
+				exec sp_executesql @Qtablescs;
+		end
+
+		IF @operation = 'selectdata'
+		BEGIN
+			
+			select [name] as [DivisionName] from dbo.[tblCompartment] where [name]=@divisionname;
+				  
+		end
+	end
+	IF @StatementType = 'Plot'
+	BEGIN
+		IF @operation = 'delete'
+			BEGIN
+			DELETE FROM [dbo].[tblPlot] WHERE [PlotName]=@divisionname;
+				
+		end
+		IF @operation = 'update'
+			BEGIN
+			Declare @Qtablepu nvarchar(max);
+			set @Qtablepu =N'
+			UPDATE [dbo].[tblPlot]
+			SET [qgs_fid]= subquery.[qgs_fid],[geom]= subquery.[ogr_geometry],[PlotName]= subquery.[plotname],[create_by]= subquery.[create_by],[CompartmentId]= subquery.[compartmen],[PlotId]= subquery.[plotid],[timestamp]= subquery.[timestamp],[DivisionID]= subquery.[divisionid]
+			FROM (
+				select [qgs_fid],[ogr_geometry],[plotname],[create_by],[compartmen],[plotid],[timestamp],[divisionid] from [dbo].newlayer
+			) subquery
+			WHERE subquery.[qgs_fid] = [tblPlot].[qgs_fid]';
+				  print @Qtablepu;
+				exec sp_executesql @Qtablepu;
+			
+				
+		end
+		IF @operation = 'insert'
+		BEGIN
+			Declare @Qtablepi nvarchar(max);
+			set @Qtablepi =N'
+			insert into [dbo].[tblPlot]( [qgs_fid],[geom],[PlotName],[create_by],[CompartmentId],[timestamp],[DivisionID])
+			select [qgs_fid],[ogr_geometry] as [geom],[plotname] as [PlotName],[create_by],[compartmen] as [CompartmentId],[timestamp],[divisionid] as [DivisionID] from dbo.['+@tablename+']';
+				  print @Qtablepi;
+				exec sp_executesql @Qtablepi;
+		end
+		IF @operation = 'select'
+		BEGIN
+			Declare @Qtablesps nvarchar(max);
+			set @Qtablesps =N'
+			
+	  select [PlotName] as [DivisionName], [DivisionName] as namedivision from dbo.['+@tablename+'] a left outer join [dbo].[tblDivision] b on a.[divisionid]=b.[DivisionId]';
+				  print @Qtablesps;
+				exec sp_executesql @Qtablesps;
+		end
+
+		IF @operation = 'selectdata'
+		BEGIN
+			
+			select [PlotName] as [DivisionName] from dbo.[tblPlot] where [PlotName]=@divisionname;
+				  
+		end
+	end
+	IF @StatementType = 'Delete'
+	BEGIN
+		Declare @Qtablen nvarchar(max);
+		set @Qtablen =N'
+		Drop table dbo.'+@tablename+'';
+			  print @Qtablen;
+			exec sp_executesql @Qtablen;
+	end
+	IF @StatementType = 'createview'
+	BEGIN
+	Declare @Qtablec nvarchar(max);
+		IF(@operation = 'Division')
+			BEGIN			
+				set @Qtablec =N'
+				CREATE VIEW dbo.'+@tablename+' AS 
+				SELECT [qgs_fid] , [geom], [DivisionId], [DivisionName],[create_by], [CircleId] ,[timestamp],[region_id] FROM dbo.tblDivision where [DivisionName]='+@divisionname+''
+					 
+			end
+		IF(@operation = 'Range')
+			BEGIN
+				
+				set @Qtablec =N'
+				CREATE VIEW dbo.'+@tablename+' AS 
+				SELECT a.[qgs_fid],a.[geom] ,a.[Compartment],a.[RangeName],a.[create_by],a.[RangeId],a.[timestamp],a.[DivisionID] FROM dbo.[tblRange] a left outer join [dbo].[tblDivision] b on a.[DivisionID]=b.[DivisionId] where [DivisionName]='+@divisionname+''
+					
+			end
+		IF(@operation = 'Block')
+			BEGIN
+				
+				set @Qtablec =N'
+				CREATE VIEW dbo.'+@tablename+' AS 
+				SELECT a.[qgs_fid],a.[geom],a.[create_by],a.[RangeId],a.[BlockName],a.[BlockId],a.[timestamp],a.[DivisionID] FROM dbo.[tblBlock] a left outer join [dbo].[tblDivision] b on a.[DivisionID]=b.[DivisionId] where [DivisionName]='+@divisionname+''
+					
+			end
+		IF(@operation = 'Compartment')
+			BEGIN
+				
+				set @Qtablec =N'
+				CREATE VIEW dbo.'+@tablename+' AS 
+				SELECT a.[qgs_fid],a.[geom],a.[name],a.[create_by],a.[CompartmentId],a.[BeatId],a.[timestamp],a.[DivisionID] FROM dbo.[tblCompartment] a left outer join [dbo].[tblDivision] b on a.[DivisionID]=b.[DivisionId] where [DivisionName]='+@divisionname+''
+					
+			end
+		IF(@operation = 'Plot')
+			BEGIN
+				
+				set @Qtablec =N'
+				CREATE VIEW dbo.'+@tablename+' AS 
+				SELECT a.[qgs_fid],a.[geom],a.[PlotName],a.[create_by],a.[CompartmentId],a.[PlotId],a.[timestamp],a.[DivisionID] FROM dbo.[tblPlot] a left outer join [dbo].[tblDivision] b on a.[DivisionID]=b.[DivisionId] where [DivisionName]='+@divisionname+''
+					
+			end
+	print @Qtablec;
+	exec sp_executesql @Qtablec;
+	end
+
+	IF @StatementType = 'deleteview'
+	BEGIN
+		Declare @Qtabledv nvarchar(max);
+		set @Qtabledv =N'
+		DROP VIEW IF EXISTS '+@tablename+'';
+			  print @Qtabledv;
+			exec sp_executesql @Qtabledv;
+	end
+end
+
+//Stored Procedure sp_shapefile_queue
+
+USE [VanIT]
+GO
+/****** Object:  StoredProcedure [dbo].[sp_shapefile_queue]    Script Date: 22-05-2023 15:47:20 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER procedure [dbo].[sp_shapefile_queue]
+@StatementType nvarchar(max)=null,
+@filename varchar(max)=null,
+@boundary nvarchar(max)=null,
+@shapefileid int=0
+as begin 
+IF @StatementType = 'Insert'
+BEGIN
+	INSERT INTO [dbo].[tblshapefile_queue]
+           ([filename]
+           ,[boundary]
+           )
+     VALUES
+           (@filename
+           ,@boundary
+           )
+
+		   end
+IF @StatementType = 'Select'
+BEGIN
+	SELECT [id]
+      ,[filename]
+      ,[boundary]
+      ,[is_delete]
+  FROM [dbo].[tblshapefile_queue] where [filename]=@filename
+
+		   end
+IF @StatementType = 'Update'
+BEGIN
+	UPDATE [dbo].[tblshapefile_queue]
+   SET [is_delete] = 'true'
+ WHERE [filename]=@filename and [id]=@shapefileid
+		   end
+		   end
