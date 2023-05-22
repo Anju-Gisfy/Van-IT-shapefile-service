@@ -349,6 +349,14 @@ namespace ShapefileService
                                         {
                                             stylename = "block_style";
                                         }
+                                        else if (boundary == "Compartment")
+                                        {
+                                            stylename = "compartment_style";
+                                        }
+                                        else if (boundary == "Plot")
+                                        {
+                                            stylename = "plot_style";
+                                        }
                                         //curl -v -u admin:geoserver -XPUT -H "Content-type: text/xml" -d "<layer><defaultStyle><name>division_style1</name></defaultStyle></layer>" "http://localhost:8080/geoserver/rest/layers/cite:vw_division_tvm"
 
                                         string commandn = "curl -v -u admin:geoserver -XPUT -H \"Content-type: text/xml\" -d \"<layer><defaultStyle><name>"+stylename+"</name></defaultStyle></layer>\" \"http://localhost:8080/geoserver/rest/layers/cite:" + viewname + "\"";
