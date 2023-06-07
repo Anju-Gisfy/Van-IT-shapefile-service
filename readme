@@ -1,19 +1,7 @@
-CREATE TABLE [dbo].[tblshapefile_queue](
-	[id] [int] IDENTITY(1,1) NOT NULL,
-	[filename] [varchar](max) NULL,
-	[boundary] [nvarchar](max) NULL,
-	[is_delete] [nvarchar](max) NULL,
- CONSTRAINT [PK_tblshapefile_queue] PRIMARY KEY CLUSTERED 
-(
-	[id] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
-
-// stored procedure sp_shapefile_import
-
 USE [VanIT]
 GO
-/****** Object:  StoredProcedure [dbo].[sp_shapefile_import]    Script Date: 22-05-2023 15:45:54 ******/
+/****** Object:  StoredProcedure [dbo].[sp_shapefile_import]    Script Date: 07-06-2023 11:28:46 ******/
+--  exec [dbo].[sp_shapefile_import] 'Division','insert','newlayer','','','','1','1','1','nn','nn'
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -23,7 +11,9 @@ ALTER procedure [dbo].[sp_shapefile_import]
 @StatementType nvarchar(max)=null,
 @operation varchar(max)=null,
 @tablename varchar(max)=null,
-@divisionname varchar(max)=null
+@divisionname varchar(max)=null,
+@createby varchar(max)=null,
+@layername varchar(max)=null
 as begin 
 	IF @StatementType = 'Division'
 	BEGIN
@@ -51,8 +41,10 @@ as begin
 		BEGIN
 			Declare @Qtable nvarchar(max);
 			set @Qtable =N'
-			insert into [dbo].[tblDivision]( [geom] , [DivisionId],[DivisionName], [create_by], [CircleId], [timestamp], [region_id])
-	  select ogr_geometry as [geom], [divisionid] as [DivisionId], divisionna as [DivisionName], [create_by], [circleid] as [CircleId],[timestamp],[region_id] from dbo.['+@tablename+']';
+	  insert into [dbo].[tblDivision]( [geom] , [DivisionId],[DivisionName], [create_by], [CircleId], [timestamp], [region_id],divLattitude,divLongitude)
+	  select [geom] , [DivisionId],[DivisionName], [create_by], [CircleId], [timestamp], [region_id],Centroid.STX AS divLattitude,
+    Centroid.STY AS divLongitude from ( select ogr_geometry.STCentroid() as Centroid,ogr_geometry as [geom], [divisionid] as [DivisionId], divisionna as [DivisionName], [create_by], [circleid] as [CircleId],[timestamp],[region_id] from dbo.['+@tablename+']) u
+	  ';
 				  print @Qtable;
 				exec sp_executesql @Qtable;
 		end
@@ -61,7 +53,7 @@ as begin
 			Declare @Qtables nvarchar(max);
 			set @Qtables =N'
 			
-	  select divisionna as [DivisionName] from dbo.['+@tablename+']';
+	  select divisionna as namedivision from dbo.['+@tablename+']';
 				  print @Qtables;
 				exec sp_executesql @Qtables;
 		end
@@ -69,7 +61,7 @@ as begin
 		IF @operation = 'selectdata'
 		BEGIN
 			
-			select [DivisionName] from dbo.[tblDivision] where [DivisionName]=@divisionname;
+			select [DivisionName] from dbo.[tblDivision] where [DivisionName]=@divisionname and create_by=@createby;
 				  
 		end
 	end
@@ -117,7 +109,7 @@ as begin
 		IF @operation = 'selectdata'
 		BEGIN
 			
-			select [RangeName] as [DivisionName] from dbo.[tblRange] where [RangeName]=@divisionname;
+			select [RangeName] as [DivisionName] from dbo.[tblRange] where [RangeName]=@divisionname and create_by=@createby;
 				  
 		end
 	end
@@ -165,7 +157,7 @@ as begin
 		IF @operation = 'selectdata'
 		BEGIN
 			
-			select [BlockName] as [DivisionName] from dbo.[tblBlock] where [BlockName]=@divisionname;
+			select [BlockName] as [DivisionName] from dbo.[tblBlock] where [BlockName]=@divisionname and create_by=@createby;
 				  
 		end
 	end
@@ -213,7 +205,7 @@ as begin
 		IF @operation = 'selectdata'
 		BEGIN
 			
-			select [name] as [DivisionName] from dbo.[tblCompartment] where [name]=@divisionname;
+			select [name] as [DivisionName] from dbo.[tblCompartment] where [name]=@divisionname and create_by=@createby;
 				  
 		end
 	end
@@ -261,7 +253,7 @@ as begin
 		IF @operation = 'selectdata'
 		BEGIN
 			
-			select [PlotName] as [DivisionName] from dbo.[tblPlot] where [PlotName]=@divisionname;
+			select [PlotName] as [DivisionName] from dbo.[tblPlot] where [PlotName]=@divisionname and create_by=@createby;
 				  
 		end
 	end
@@ -327,48 +319,16 @@ as begin
 			  print @Qtabledv;
 			exec sp_executesql @Qtabledv;
 	end
+
+	IF @StatementType = 'layers'
+	BEGIN
+		IF @operation = 'select'
+		BEGIN
+			select Layer_Name FROM [dbo].[tblDivision] WHERE DivisionName=@divisionname;
+		end
+		IF @operation = 'update'
+		BEGIN
+			update  [dbo].[tblDivision] set Layer_Name= @layername where DivisionName=@divisionname;
+		end
+	end
 end
-
-//Stored Procedure sp_shapefile_queue
-
-USE [VanIT]
-GO
-/****** Object:  StoredProcedure [dbo].[sp_shapefile_queue]    Script Date: 22-05-2023 15:47:20 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-ALTER procedure [dbo].[sp_shapefile_queue]
-@StatementType nvarchar(max)=null,
-@filename varchar(max)=null,
-@boundary nvarchar(max)=null,
-@shapefileid int=0
-as begin 
-IF @StatementType = 'Insert'
-BEGIN
-	INSERT INTO [dbo].[tblshapefile_queue]
-           ([filename]
-           ,[boundary]
-           )
-     VALUES
-           (@filename
-           ,@boundary
-           )
-
-		   end
-IF @StatementType = 'Select'
-BEGIN
-	SELECT [id]
-      ,[filename]
-      ,[boundary]
-      ,[is_delete]
-  FROM [dbo].[tblshapefile_queue] where [filename]=@filename
-
-		   end
-IF @StatementType = 'Update'
-BEGIN
-	UPDATE [dbo].[tblshapefile_queue]
-   SET [is_delete] = 'true'
- WHERE [filename]=@filename and [id]=@shapefileid
-		   end
-		   end
