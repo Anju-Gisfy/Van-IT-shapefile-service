@@ -23,7 +23,8 @@ namespace ShapefileService
         public clsConnnection()
         {
 
-            string connectionstring = "server=EC2AMAZ-G8A2PIA\\VANSYSTEM;database=VanIT;integrated security = true;Connection Timeout=0";
+            //string connectionstring = "server=EC2AMAZ-G8A2PIA\\VANSYSTEM;database=VanIT;integrated security = true;Connection Timeout=0";
+            string connectionstring = "server=3.7.34.230;database=VanIT;User ID=sa;Password=pass@123;";
             objCon = new SqlConnection(connectionstring);
             try
             {
@@ -215,7 +216,7 @@ namespace ShapefileService
             finally { fnCloseConnection(); }
 
         }
-
+    
         public string fnExecuteProcedureReturnSingle(string procedurename, NameValueCollection ParamNamevalue)
         {
             try

@@ -1,0 +1,28 @@
+Service is started at 06-06-2023 13:09:13
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 06-06-2023 13:10:18
+Service is stop at 06-06-2023 13:15:03
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 06-06-2023 13:15:03
+Service is started at 06-06-2023 16:04:23
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 06-06-2023 16:12:05
+file successfully moved vw_division_achampet.cpg at 06-06-2023 16:20:30
+file successfully moved vw_division_achampet.dbf at 06-06-2023 16:20:30
+file successfully moved vw_division_achampet.prj at 06-06-2023 16:20:30
+file successfully moved vw_division_achampet.qmd at 06-06-2023 16:20:30
+file successfully moved vw_division_achampet.shp at 06-06-2023 16:20:30
+file successfully moved vw_division_achampet.shx at 06-06-2023 16:20:30
+Service is stop at 06-06-2023 16:20:34
+Service is started at 06-06-2023 16:21:52
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 06-06-2023 16:22:25
+Error: System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at ShapefileService.Service1.test() in G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\Service1.cs:line 114 at 06-06-2023 16:24:50
+command run successfully at 06-06-2023 16:24:50
+Updated queue table as deleted at 06-06-2023 16:24:50
+file successfully moved vw_division_achampet.cpg at 06-06-2023 16:24:50
+file successfully moved vw_division_achampet.dbf at 06-06-2023 16:24:50
+file successfully moved vw_division_achampet.prj at 06-06-2023 16:24:50
+file successfully moved vw_division_achampet.qmd at 06-06-2023 16:24:50
+file successfully moved vw_division_achampet.shp at 06-06-2023 16:24:50
+file successfully moved vw_division_achampet.shx at 06-06-2023 16:24:50
+Service is stop at 06-06-2023 19:07:39

@@ -8,26 +8,3 @@ G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\obj\Debug\Shapefil
 G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\obj\Debug\ShapefileService.csproj.CoreCompileInputs.cache
 G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\obj\Debug\ShapefileService.exe
 G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\obj\Debug\ShapefileService.pdb
-C:\Van IT Windows Services\ShapefileService-17-04-2023\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe.config
-C:\Van IT Windows Services\ShapefileService-17-04-2023\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe
-C:\Van IT Windows Services\ShapefileService-17-04-2023\ShapefileService\ShapefileService\bin\Debug\ShapefileService.pdb
-C:\Van IT Windows Services\ShapefileService-17-04-2023\ShapefileService\ShapefileService\obj\Debug\ShapefileService.csproj.AssemblyReference.cache
-C:\Van IT Windows Services\ShapefileService-17-04-2023\ShapefileService\ShapefileService\obj\Debug\ShapefileService.csproj.SuggestedBindingRedirects.cache
-C:\Van IT Windows Services\ShapefileService-17-04-2023\ShapefileService\ShapefileService\obj\Debug\ShapefileService.ProjectInstaller.resources
-C:\Van IT Windows Services\ShapefileService-17-04-2023\ShapefileService\ShapefileService\obj\Debug\ShapefileService.csproj.GenerateResource.cache
-C:\Van IT Windows Services\ShapefileService-17-04-2023\ShapefileService\ShapefileService\obj\Debug\ShapefileService.csproj.CoreCompileInputs.cache
-C:\Van IT Windows Services\ShapefileService-17-04-2023\ShapefileService\ShapefileService\obj\Debug\ShapefileService.exe
-C:\Van IT Windows Services\ShapefileService-17-04-2023\ShapefileService\ShapefileService\obj\Debug\ShapefileService.pdb
-C:\Van IT Windows Services\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe.config
-C:\Van IT Windows Services\ShapefileService\ShapefileService\bin\Debug\ShapefileService.exe
-C:\Van IT Windows Services\ShapefileService\ShapefileService\bin\Debug\ShapefileService.pdb
-C:\Van IT Windows Services\ShapefileService\ShapefileService\bin\Debug\Newtonsoft.Json.dll
-C:\Van IT Windows Services\ShapefileService\ShapefileService\bin\Debug\Newtonsoft.Json.xml
-C:\Van IT Windows Services\ShapefileService\ShapefileService\obj\Debug\ShapefileService.csproj.AssemblyReference.cache
-C:\Van IT Windows Services\ShapefileService\ShapefileService\obj\Debug\ShapefileService.csproj.SuggestedBindingRedirects.cache
-C:\Van IT Windows Services\ShapefileService\ShapefileService\obj\Debug\ShapefileService.ProjectInstaller.resources
-C:\Van IT Windows Services\ShapefileService\ShapefileService\obj\Debug\ShapefileService.csproj.GenerateResource.cache
-C:\Van IT Windows Services\ShapefileService\ShapefileService\obj\Debug\ShapefileService.csproj.CoreCompileInputs.cache
-C:\Van IT Windows Services\ShapefileService\ShapefileService\obj\Debug\ShapefileService.csproj.CopyComplete
-C:\Van IT Windows Services\ShapefileService\ShapefileService\obj\Debug\ShapefileService.exe
-C:\Van IT Windows Services\ShapefileService\ShapefileService\obj\Debug\ShapefileService.pdb

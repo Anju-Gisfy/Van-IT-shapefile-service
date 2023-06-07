@@ -1,0 +1,253 @@
+Service is started at 07-06-2023 11:12:47
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 11:13:32
+Service is stop at 07-06-2023 11:14:02
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 11:14:02
+Service is started at 07-06-2023 11:30:49
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 11:31:25
+Updated queue table as deleted at 07-06-2023 11:31:55
+Service is stop at 07-06-2023 11:37:00
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 11:37:00
+file successfully moved vw_division_achampet.cpg at 07-06-2023 11:37:15
+file successfully moved vw_division_achampet.dbf at 07-06-2023 11:37:15
+file successfully moved vw_division_achampet.prj at 07-06-2023 11:37:15
+file successfully moved vw_division_achampet.qmd at 07-06-2023 11:37:15
+file successfully moved vw_division_achampet.shp at 07-06-2023 11:37:15
+file successfully moved vw_division_achampet.shx at 07-06-2023 11:37:15
+layer created at 07-06-2023 11:37:42
+style implemented at 07-06-2023 11:37:44
+Service is started at 07-06-2023 17:03:56
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 17:03:56
+Updated queue table as deleted at 07-06-2023 17:03:58
+layer created at 07-06-2023 17:04:03
+style implemented at 07-06-2023 17:04:04
+file successfully moved vw_division_achampet.cpg at 07-06-2023 17:04:04
+System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ShapefileService.Service1.test() in G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\Service1.cs:line 496 at 07-06-2023 17:04:04
+file successfully moved vw_division_achampet.prj at 07-06-2023 17:04:04
+file successfully moved vw_division_achampet.qmd at 07-06-2023 17:04:04
+System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ShapefileService.Service1.test() in G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\Service1.cs:line 496 at 07-06-2023 17:04:04
+file successfully moved vw_division_achampet.shx at 07-06-2023 17:04:04
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 17:04:04
+Updated queue table as deleted at 07-06-2023 17:04:05
+layer created at 07-06-2023 17:04:09
+style implemented at 07-06-2023 17:04:09
+System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ShapefileService.Service1.test() in G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\Service1.cs:line 502 at 07-06-2023 17:04:09
+System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ShapefileService.Service1.test() in G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\Service1.cs:line 502 at 07-06-2023 17:04:09
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 17:04:23
+Updated queue table as deleted at 07-06-2023 17:04:30
+layer created at 07-06-2023 17:08:29
+style implemented at 07-06-2023 17:08:29
+System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ShapefileService.Service1.test() in G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\Service1.cs:line 502 at 07-06-2023 17:08:29
+System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ShapefileService.Service1.test() in G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\Service1.cs:line 502 at 07-06-2023 17:08:29
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 17:08:29
+Updated queue table as deleted at 07-06-2023 17:08:30
+Service is stop at 07-06-2023 17:08:32
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 17:08:32
+Updated queue table as deleted at 07-06-2023 17:08:32
+layer created at 07-06-2023 17:08:36
+style implemented at 07-06-2023 17:08:36
+System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ShapefileService.Service1.test() in G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\Service1.cs:line 502 at 07-06-2023 17:08:36
+System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ShapefileService.Service1.test() in G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\Service1.cs:line 502 at 07-06-2023 17:08:36
+Service is started at 07-06-2023 17:19:52
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 17:21:46
+Updated queue table as deleted at 07-06-2023 17:22:22
+layer created at 07-06-2023 17:28:03
+style implemented at 07-06-2023 17:28:04
+file successfully moved vw_division_achampet.cpg at 07-06-2023 17:28:04
+file successfully moved vw_division_achampet.dbf at 07-06-2023 17:28:04
+file successfully moved vw_division_achampet.prj at 07-06-2023 17:28:04
+file successfully moved vw_division_achampet.qmd at 07-06-2023 17:28:04
+file successfully moved vw_division_achampet.shp at 07-06-2023 17:28:04
+file successfully moved vw_division_achampet.shx at 07-06-2023 17:28:04
+Service is stop at 07-06-2023 17:28:08
+Service is started at 07-06-2023 17:30:48
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 17:31:15
+Updated queue table as deleted at 07-06-2023 17:31:29
+layer created at 07-06-2023 17:31:57
+style implemented at 07-06-2023 17:32:02
+Updated queue table as deleted at 07-06-2023 17:32:15
+layer created at 07-06-2023 17:35:02
+style implemented at 07-06-2023 17:35:03
+file successfully moved vw_division_achampet.cpg at 07-06-2023 17:35:03
+file successfully moved vw_division_achampet.dbf at 07-06-2023 17:35:03
+file successfully moved vw_division_achampet.prj at 07-06-2023 17:35:03
+file successfully moved vw_division_achampet.qmd at 07-06-2023 17:35:03
+file successfully moved vw_division_achampet.shp at 07-06-2023 17:35:03
+file successfully moved vw_division_achampet.shx at 07-06-2023 17:35:03
+Service is stop at 07-06-2023 17:35:06
+Service is started at 07-06-2023 17:37:31
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 17:37:59
+layer created at 07-06-2023 17:38:28
+style implemented at 07-06-2023 17:38:33
+Updated queue table as deleted at 07-06-2023 17:38:38
+layer created at 07-06-2023 17:39:22
+style implemented at 07-06-2023 17:39:23
+Updated queue table as deleted at 07-06-2023 17:39:23
+file successfully moved vw_division_achampet.cpg at 07-06-2023 17:39:23
+file successfully moved vw_division_achampet.dbf at 07-06-2023 17:39:23
+file successfully moved vw_division_achampet.prj at 07-06-2023 17:39:23
+file successfully moved vw_division_achampet.qmd at 07-06-2023 17:39:23
+file successfully moved vw_division_achampet.shp at 07-06-2023 17:39:23
+file successfully moved vw_division_achampet.shx at 07-06-2023 17:39:23
+Service is stop at 07-06-2023 17:39:25
+Service is started at 07-06-2023 17:40:35
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 17:41:05
+layer created at 07-06-2023 17:42:40
+style implemented at 07-06-2023 17:42:45
+Updated queue table as deleted at 07-06-2023 17:42:49
+selected and inserted data at 07-06-2023 17:49:55
+views deleted at 07-06-2023 17:51:37
+views created at 07-06-2023 17:51:48
+layer created at 07-06-2023 17:51:59
+style implemented at 07-06-2023 17:52:23
+layers updated in tbldivision at 07-06-2023 17:53:01
+Updated queue table as deleted at 07-06-2023 17:53:11
+file successfully moved vw_division_achampet.cpg at 07-06-2023 17:53:24
+file successfully moved vw_division_achampet.dbf at 07-06-2023 17:53:24
+file successfully moved vw_division_achampet.prj at 07-06-2023 17:53:24
+file successfully moved vw_division_achampet.qmd at 07-06-2023 17:53:24
+file successfully moved vw_division_achampet.shp at 07-06-2023 17:53:24
+file successfully moved vw_division_achampet.shx at 07-06-2023 17:53:24
+System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.__Error.WinIOError()
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ShapefileService.Service1.test() in G:\VanSystem\VAN IT ASP.NET\ShapefileService\ShapefileService\Service1.cs:line 500 at 07-06-2023 18:17:32
+file successfully moved vw_division_achampet.cpg at 07-06-2023 18:17:32
+file successfully moved vw_division_achampet.dbf at 07-06-2023 18:17:32
+file successfully moved vw_division_achampet.prj at 07-06-2023 18:17:32
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 18:17:32
+views deleted at 07-06-2023 18:17:33
+views created at 07-06-2023 18:17:33
+layer created at 07-06-2023 18:17:48
+style implemented at 07-06-2023 18:17:48
+Updated queue table as deleted at 07-06-2023 18:17:48
+views deleted at 07-06-2023 18:17:50
+views created at 07-06-2023 18:17:50
+layer created at 07-06-2023 18:17:50
+style implemented at 07-06-2023 18:17:51
+Updated queue table as deleted at 07-06-2023 18:17:51
+file successfully moved vw_division_achampet.qmd at 07-06-2023 18:17:51
+file successfully moved vw_division_achampet.shp at 07-06-2023 18:17:51
+file successfully moved vw_division_achampet.shx at 07-06-2023 18:17:51
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 18:18:41
+views deleted at 07-06-2023 18:19:11
+views created at 07-06-2023 18:19:13
+layer created at 07-06-2023 18:19:17
+style implemented at 07-06-2023 18:19:21
+Updated queue table as deleted at 07-06-2023 18:19:24
+selected and inserted data at 07-06-2023 18:19:36
+views deleted at 07-06-2023 18:19:40
+views created at 07-06-2023 18:19:43
+layer created at 07-06-2023 18:19:47
+style implemented at 07-06-2023 18:19:51
+layers updated in tbldivision at 07-06-2023 18:19:56
+Updated queue table as deleted at 07-06-2023 18:19:59
+file successfully moved vw_division_achampet.cpg at 07-06-2023 18:20:05
+file successfully moved vw_division_achampet.dbf at 07-06-2023 18:20:05
+file successfully moved vw_division_achampet.prj at 07-06-2023 18:20:05
+file successfully moved vw_division_achampet.qmd at 07-06-2023 18:20:05
+file successfully moved vw_division_achampet.shp at 07-06-2023 18:20:05
+file successfully moved vw_division_achampet.shx at 07-06-2023 18:20:05
+file successfully moved vw_division_achampet.cpg at 07-06-2023 18:53:38
+Service is stop at 07-06-2023 18:55:43
+Service is started at 07-06-2023 18:57:03
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 18:58:48
+selected and inserted data at 07-06-2023 18:58:50
+views deleted at 07-06-2023 18:58:51
+views created at 07-06-2023 18:58:51
+layer created at 07-06-2023 18:58:51
+style implemented at 07-06-2023 18:58:52
+layers updated in tbldivision at 07-06-2023 18:58:52
+Updated queue table as deleted at 07-06-2023 18:58:52
+file successfully moved vw_division_achampet.cpg at 07-06-2023 18:58:52
+file successfully moved vw_division_achampet.dbf at 07-06-2023 18:58:52
+file successfully moved vw_division_achampet.prj at 07-06-2023 18:58:52
+file successfully moved vw_division_achampet.qmd at 07-06-2023 18:58:52
+file successfully moved vw_division_achampet.shp at 07-06-2023 18:58:52
+file successfully moved vw_division_achampet.shx at 07-06-2023 18:58:52
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 18:59:42
+views deleted at 07-06-2023 18:59:44
+views created at 07-06-2023 18:59:44
+layer created at 07-06-2023 18:59:44
+style implemented at 07-06-2023 18:59:44
+Updated queue table as deleted at 07-06-2023 18:59:44
+views deleted at 07-06-2023 18:59:45
+views created at 07-06-2023 18:59:45
+layer created at 07-06-2023 18:59:45
+style implemented at 07-06-2023 18:59:46
+Updated queue table as deleted at 07-06-2023 18:59:46
+file successfully moved vw_division_achampet.cpg at 07-06-2023 18:59:46
+file successfully moved vw_division_achampet.dbf at 07-06-2023 18:59:46
+file successfully moved vw_division_achampet.prj at 07-06-2023 18:59:46
+file successfully moved vw_division_achampet.qmd at 07-06-2023 18:59:46
+file successfully moved vw_division_achampet.shp at 07-06-2023 18:59:46
+file successfully moved vw_division_achampet.shx at 07-06-2023 18:59:46
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 19:03:56
+selected and inserted data at 07-06-2023 19:03:57
+views deleted at 07-06-2023 19:03:57
+views created at 07-06-2023 19:03:57
+layer created at 07-06-2023 19:03:58
+style implemented at 07-06-2023 19:03:58
+layers updated in tbldivision at 07-06-2023 19:03:58
+Updated queue table as deleted at 07-06-2023 19:03:58
+file successfully moved vw_division_achampet.cpg at 07-06-2023 19:03:58
+file successfully moved vw_division_achampet.dbf at 07-06-2023 19:03:58
+file successfully moved vw_division_achampet.prj at 07-06-2023 19:03:58
+file successfully moved vw_division_achampet.qmd at 07-06-2023 19:03:58
+file successfully moved vw_division_achampet.shp at 07-06-2023 19:03:58
+file successfully moved vw_division_achampet.shx at 07-06-2023 19:03:58
+Shapefile found C:\ShapefilesService-Test\vw_division_achampet.shp at 07-06-2023 19:08:54
+selected and inserted data at 07-06-2023 19:08:55
+views deleted at 07-06-2023 19:08:55
+views created at 07-06-2023 19:08:55
+layer created at 07-06-2023 19:08:56
+style implemented at 07-06-2023 19:08:56
+layers updated in tbldivision at 07-06-2023 19:08:56
+Updated queue table as deleted at 07-06-2023 19:08:56
+file successfully moved vw_division_achampet.cpg at 07-06-2023 19:08:56
+file successfully moved vw_division_achampet.dbf at 07-06-2023 19:08:56
+file successfully moved vw_division_achampet.prj at 07-06-2023 19:08:56
+file successfully moved vw_division_achampet.qmd at 07-06-2023 19:08:56
+file successfully moved vw_division_achampet.shp at 07-06-2023 19:08:56
+file successfully moved vw_division_achampet.shx at 07-06-2023 19:08:56
